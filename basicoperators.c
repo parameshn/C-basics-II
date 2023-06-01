@@ -44,4 +44,6 @@ statement assigns a value to a variable using multiplication and division:*/
 tire. It then calculates a total price, adding sales tax. */
     newFactor = 2 * 3 + 4;
     printf("VALUE IS %d", newFactor);
+    /* This is a sample program that demonstrates math operators, and
+the different types of division. */
 }
