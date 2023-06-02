@@ -1,6 +1,13 @@
-//////COUNTER VARIABLE
+//////COUNTER OPERATORS/ASSIGNMENT OPERATORS
 /*A counter variable is a variable that you add 1 to when a certain
-event takes place*/
+event takes place
+
+COMPOUND ADDITION OPERATOR +=
+COMPOUND DIVISION OPERATOR /=
+COMPOUND MULTIPLICATION OPERATOR *=
+COMPOUND SUBRACTION OPERATOR -=
+COMPOUND MODULOUS OPERATOR %=
+*/
 
 #include <stdio.h>
 void main()
