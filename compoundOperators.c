@@ -1,4 +1,4 @@
-//////COUNTER OPERATORS/ASSIGNMENT OPERATORS
+//////COUNTER OPERATORS/ASSIGNMENT OPERATORS // LEFT TO RIGHT
 /*A counter variable is a variable that you add 1 to when a certain
 event takes place
 
