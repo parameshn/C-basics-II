@@ -1,4 +1,4 @@
-///////////RELATION OPERATORS
+///////////RELATION OPERATORS  RIGHT TO LEFT
 /*relational operators, which permit testing of data
 == EQUALS TO
 >= GREATER THAN OR EQUAL TO
