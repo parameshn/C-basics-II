@@ -202,4 +202,5 @@ some other basic math. */
     {
         printf("You can get your tickets here.\n");
     }
+    /*The program then checks the first character of the last name (name[0]) using the logical AND operator (&&) in combination with comparison operators (>= and <=) to determine if it falls between the range 'P' and 'S' in ASCII values.*/
 }
