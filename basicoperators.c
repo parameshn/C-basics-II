@@ -186,21 +186,4 @@ some other basic math. */
     printf("You are %.1f percent behind ", percentDiff);
     printf("that grade!\n\n\n");
     return 0;
-
-    // set up an array for the last name and then get it from the user
-    char name[25];
-    printf("What is your last name? ");
-    printf("(Please capitalize the first letter!)\n");
-    scanf(" %s", name);
-    // For a string array, you don't need the &
-    if ((name[0] >= 'P') && (name[0] <= 'S'))
-    {
-        printf("You must go to room 2432 ");
-        printf("for your tickets.\n");
-    }
-    else
-    {
-        printf("You can get your tickets here.\n");
-    }
-    /*The program then checks the first character of the last name (name[0]) using the logical AND operator (&&) in combination with comparison operators (>= and <=) to determine if it falls between the range 'P' and 'S' in ASCII values.*/
 }
