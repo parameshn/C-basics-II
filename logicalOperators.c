@@ -160,4 +160,58 @@ void main()
     {
         printf("You can get your tickets here.\n");
     }
+
+    // set up an array for the last name and then get it from the user
+    char name[25];
+    printf("What is your last name? ");
+    printf("(Please capitalize the first letter!)\n");
+    scanf(" %s", name);
+    // For a string array, you don't need the &
+    if ((name[0] >= 'P') && (name[0] <= 'S'))
+    {
+        printf("You must go to room 2432 ");
+        printf("for your tickets.\n");
+    }
+    else
+    {
+        printf("You can get your tickets here.\n");
+    }
+    /*The program then checks the first character of the last name (name[0]) using the logical AND operator (&&) in combination with comparison operators (>= and <=) to determine if it falls between the range 'P' and 'S' in ASCII values.*/
+
+    /*Studying the order of operators shows you that the && operator has precedence
+    over the ||.*/
+
+    int age, sales, hrsWorked, grade, classMissed, numActs, sports;
+
+    if (age < 20 || sales < 1200 && hrsWorked > 15)
+    {
+    }
+
+    if ((age < 20) || ((sales < 1200) && (hrsWorked > 15)))
+    {
+    }
+
+    if ((grade > 93) && (classMissed <= 3) &&
+        ((numActs >= 3) || (sports >= 2)))
+    {
+    }
+    /*The following if, with correct parentheses, not only makes the if accurate, but also makes it a little
+    more clear:
+    */
+    if ((grade > 93) && (classMissed <= 3) && ((numActs >= 3) || (sports >= 2)))
+    {
+    }
+    // you can break such long if statements into two or more lines, like this:
+
+    if ((grade > 93) && (classMissed <= 3) &&
+        ((numActs >= 3) || (sports >= 2)))
+    {
+    }
+    // C programmers even find that two if statements are clearer than four relational tests, such as these statements:
+    if ((grade > 93) && (classMissed <= 3))
+    {
+        if ((numActs >= 3) || (sports >= 2))
+        { /* Reward the student */
+        }
+    }
 }
